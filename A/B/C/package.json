@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "manual": "../../../node_modules/.bin/figlet Manual path",
-    "test": ""
+    "test": "$(./index.js figlet) bin-up!"
   },
   "keywords": [],
   "author": "",
