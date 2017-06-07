@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "manual": "../../../node_modules/.bin/figlet Manual path",
-    "test": "$(./index.js figlet) bin-up!"
+    "test": "$(bin-up figlet) bin-up!"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "bin-up": "^1.0.0"
+  }
 }
